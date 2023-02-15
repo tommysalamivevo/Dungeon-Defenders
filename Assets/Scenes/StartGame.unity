@@ -200,7 +200,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 235308171}
-  - component: {fileID: 235308170}
+  - component: {fileID: 235308172}
   m_Layer: 0
   m_Name: MainMenuController
   m_TagString: Untagged
@@ -208,18 +208,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &235308170
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 235308169}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 610bb38f338d4cc43a6b654523bf9d53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &235308171
 Transform:
   m_ObjectHideFlags: 0
@@ -235,6 +223,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &235308172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235308169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6423a0756d0ed146a8caa1c949d8f36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene: 0
 --- !u!1 &1095572369
 GameObject:
   m_ObjectHideFlags: 0
@@ -349,7 +350,7 @@ GameObject:
   - component: {fileID: 1571657264}
   - component: {fileID: 1571657263}
   m_Layer: 5
-  m_Name: Button (Legacy)
+  m_Name: Back Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -419,8 +420,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 235308170}
-        m_TargetAssemblyTypeName: MoveToMainMenu, Assembly-CSharp
+      - m_Target: {fileID: 235308172}
+        m_TargetAssemblyTypeName: MoveScene, Assembly-CSharp
         m_MethodName: nextScene
         m_Mode: 1
         m_Arguments:
@@ -546,8 +547,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1673314126}
   m_LocalRotation: {x: -0, y: -0, z: 0.0005022139, w: 0.9999999}
-  m_LocalPosition: {x: -0.34, y: 3.12, z: 0}
-  m_LocalScale: {x: 0.36368188, y: 0.36368188, z: 0.36368188}
+  m_LocalPosition: {x: -0.0598, y: 3.2755, z: 0}
+  m_LocalScale: {x: 0.33902425, y: 0.33902425, z: 0.33902425}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

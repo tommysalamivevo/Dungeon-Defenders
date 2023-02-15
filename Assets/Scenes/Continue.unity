@@ -385,7 +385,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 616527344}
-  - component: {fileID: 616527343}
+  - component: {fileID: 616527345}
   m_Layer: 0
   m_Name: MainMenuController
   m_TagString: Untagged
@@ -393,18 +393,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &616527343
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 616527342}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 610bb38f338d4cc43a6b654523bf9d53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &616527344
 Transform:
   m_ObjectHideFlags: 0
@@ -420,6 +408,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &616527345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616527342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6423a0756d0ed146a8caa1c949d8f36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene: 0
 --- !u!1 &788629379
 GameObject:
   m_ObjectHideFlags: 0
@@ -497,8 +498,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 788629379}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.33, y: 2.95, z: 0}
-  m_LocalScale: {x: 0.252448, y: 0.252448, z: 0.252448}
+  m_LocalPosition: {x: -0.18, y: 3.29, z: 0}
+  m_LocalScale: {x: 0.18234318, y: 0.18234318, z: 0.18234318}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -517,7 +518,7 @@ GameObject:
   - component: {fileID: 2120636141}
   - component: {fileID: 2120636140}
   m_Layer: 5
-  m_Name: Button (Legacy)
+  m_Name: Back Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -587,8 +588,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 616527343}
-        m_TargetAssemblyTypeName: MoveToMainMenu, Assembly-CSharp
+      - m_Target: {fileID: 616527345}
+        m_TargetAssemblyTypeName: MoveScene, Assembly-CSharp
         m_MethodName: nextScene
         m_Mode: 1
         m_Arguments:
