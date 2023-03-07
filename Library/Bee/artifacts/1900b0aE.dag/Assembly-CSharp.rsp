@@ -371,6 +371,7 @@
 "Assets/Scripts/ButtonClick.cs"
 "Assets/Scripts/CreateGuy.cs"
 "Assets/Scripts/CreateObject.cs"
+"Assets/Scripts/EnemySpawn.cs"
 "Assets/Scripts/Exit.cs"
 "Assets/Scripts/Explosion.cs"
 "Assets/Scripts/FollowMouse.cs"
