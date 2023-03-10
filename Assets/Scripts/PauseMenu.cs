@@ -28,6 +28,7 @@ public class PauseMenu : MonoBehaviour
              Pause();
          }
      }
+    
  }
  public void Resume()
  {
@@ -43,7 +44,7 @@ public class PauseMenu : MonoBehaviour
  }
  public void loadmenu()
  {        
-     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);
+     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 6);
  }
  public void QuitGame()
  {
