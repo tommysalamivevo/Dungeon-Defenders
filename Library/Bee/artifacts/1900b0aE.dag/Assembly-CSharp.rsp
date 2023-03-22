@@ -377,6 +377,7 @@
 "Assets/Scripts/FollowMouse.cs"
 "Assets/Scripts/Killzone.cs"
 "Assets/Scripts/MoveScene.cs"
+"Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/UnitMover.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
