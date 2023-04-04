@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 2767345439762712572}
   - component: {fileID: 2767345439762712574}
   - component: {fileID: 2767345439762712545}
+  - component: {fileID: 5152391072584488439}
+  - component: {fileID: 5885894907955094215}
   m_Layer: 0
   m_Name: Rabbit Enemy
   m_TagString: Enemy
@@ -133,3 +135,36 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &5152391072584488439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6224092790112021466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41bf1bdb00d461e42995eadb893ca1cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+--- !u!114 &5885894907955094215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6224092790112021466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a585d6b243e2f5a49a19c47ee4afec8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {fileID: 6679089808913876240, guid: 7be1d6b62ce1c184aacedd76a247e468, type: 3}
+  - {fileID: 6816599950808387376, guid: 39127904ee8194447873730cf57b0427, type: 3}
+  - {fileID: 8633179399011028213, guid: c3f8c719123887145b69abf44367379a, type: 3}
+  speed: 5
+  audioSource: {fileID: 0}
+  soundEffect: {fileID: 0}
+  soundEffects: []

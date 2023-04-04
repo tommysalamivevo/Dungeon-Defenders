@@ -13,11 +13,18 @@ public class UnitMover : MonoBehaviour
     // Private variables
     private int currentWaypoint = 0;
 
+    // Private variable to store a reference to the Currency script
+    private Currency currencyScript;
+
     // Start is called before the first frame update
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
+
         // Invoke the PlaySoundEffect method every 6 seconds, starting after 1 second
         InvokeRepeating("PlaySoundEffect", 1f, 6f);
+
+        currencyScript = FindObjectOfType<Currency>();
     }
 
     // Update is called once per frame
@@ -42,12 +49,34 @@ public class UnitMover : MonoBehaviour
         transform.position = Vector3.MoveTowards(transform.position, waypoints[currentWaypoint].position, speed * Time.deltaTime);
     }
 
-public AudioClip[] soundEffects; // an array of audio clips to play
-private int currentSoundEffectIndex = 0; // the index of the current sound effect to play
+    public AudioClip[] soundEffects; // an array of audio clips to play
+    private int currentSoundEffectIndex = 0; // the index of the current sound effect to play
 
-void PlaySoundEffect()
-{
-    audioSource.PlayOneShot(soundEffects[currentSoundEffectIndex]);
-    currentSoundEffectIndex = (currentSoundEffectIndex + 1) % soundEffects.Length; // toggle to the next sound effect in the array
-}
+    void PlaySoundEffect()
+    {
+        audioSource.PlayOneShot(soundEffects[currentSoundEffectIndex]);
+        currentSoundEffectIndex = (currentSoundEffectIndex + 1) % soundEffects.Length; // toggle to the next sound effect in the array
+    }
+
+    void OnMouseDown()
+    {
+        Destroy(gameObject);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Friendly"))
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    private void OnDestroy()
+    {
+        if (currencyScript != null)
+        {
+            currencyScript.IncreaseCurrency();
+        }
+    }
+
 }
