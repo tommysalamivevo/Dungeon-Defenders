@@ -26,7 +26,6 @@ public class Explosion : MonoBehaviour
         if ( collision.gameObject.tag == "Enemy")
         {
             collision.gameObject.GetComponent<EnemyHealth>().TakeDamage(50);
-            audioSource.PlayOneShot(deathSound);
         }
             //Destroy(collision.gameObject);
     }

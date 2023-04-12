@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 2287031895736945962}
   - component: {fileID: 689953710399879706}
   - component: {fileID: 6358470269998815264}
-  - component: {fileID: 6358470269998815271}
   - component: {fileID: 6358470269998815454}
+  - component: {fileID: -1295954465808726053}
   m_Layer: 0
   m_Name: Squid Guy
   m_TagString: Enemy
@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 1035186280098116359}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5.68, y: -1.97, z: 0}
-  m_LocalScale: {x: 7.5089755, y: 7.5089755, z: 7.5089755}
+  m_LocalScale: {x: 4, y: 4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -101,7 +101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41bf1bdb00d461e42995eadb893ca1cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 200
+  maxHealth: 150
 --- !u!114 &689953710399879706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117,7 +117,8 @@ MonoBehaviour:
   waypoints:
   - {fileID: 6679089808913876240, guid: 7be1d6b62ce1c184aacedd76a247e468, type: 3}
   - {fileID: 6816599950808387376, guid: 39127904ee8194447873730cf57b0427, type: 3}
-  - {fileID: 8633179399011028213, guid: c3f8c719123887145b69abf44367379a, type: 3}
+  - {fileID: 8633179399011028213, guid: 6534754ab7b807b4c887fffcc8f942d1, type: 3}
+  - {fileID: 8633179399011028213, guid: 942cb9b50c763714084613ef1a44bb9f, type: 3}
   speed: 3
   audioSource: {fileID: 0}
   soundEffect: {fileID: 0}
@@ -142,33 +143,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!61 &6358470269998815271
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1035186280098116359}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.32, y: 0.32}
-    newSize: {x: 1.08, y: 1.6}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.32, y: 0.32}
-  m_EdgeRadius: 0
+  m_Constraints: 4
 --- !u!82 &6358470269998815454
 AudioSource:
   m_ObjectHideFlags: 0
@@ -265,3 +240,29 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!61 &-1295954465808726053
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035186280098116359}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 1.08, y: 1.6}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.32, y: 0.32}
+  m_EdgeRadius: 0

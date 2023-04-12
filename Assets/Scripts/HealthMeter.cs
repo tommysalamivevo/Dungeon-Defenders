@@ -7,13 +7,15 @@ public class HealthMeter : MonoBehaviour
     public GameObject heartPrefab; // The heart prefab to instantiate
     public int numHearts = 3; // The number of hearts to spawn
     private int remainingHearts; // The number of remaining hearts
+    public float locationX = 0;
+    public float locationY = 0;
 
     void Start()
     {
         remainingHearts = numHearts - 1;
         for (int i = 0; i < numHearts; i++)
         {
-            GameObject heart = Instantiate(heartPrefab, transform.position + Vector3.down * 1 + Vector3.right * 3 * i, Quaternion.identity);
+            GameObject heart = Instantiate(heartPrefab, new Vector3(locationX + (2 * i), locationY, 0f), Quaternion.identity);
             heart.tag = "Heart";
         }
     }

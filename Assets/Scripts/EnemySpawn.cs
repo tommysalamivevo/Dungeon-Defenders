@@ -5,6 +5,10 @@ using UnityEngine;
 public class EnemySpawn : MonoBehaviour
 {
     public int numSpawns = 5;
+    public int spawnDelay = 5;
+    public int intialDelay = 2;
+    public float locationX = 0;
+    public float locationY = 0;
     //int spawnDelay = 5;
     public GameObject myGameObject;
 
@@ -22,10 +26,11 @@ public class EnemySpawn : MonoBehaviour
 
     IEnumerator SpawnEnemy()
     {
+        yield return new WaitForSeconds(intialDelay);
         for(int i = 0; i< numSpawns; i++)
         {
-            yield return new WaitForSeconds(5);
-            Instantiate(myGameObject, new Vector3(0f, 0f, 0f), Quaternion.identity);
+            yield return new WaitForSeconds(spawnDelay);
+            Instantiate(myGameObject, new Vector3(locationX, locationY, 0f), Quaternion.identity);
         }
     }
 }

@@ -16,7 +16,7 @@ public class Currency : MonoBehaviour
 
     void UpdateCurrencyText()
     {
-        currencyText.text = "Currency: " + currency.ToString();
+        currencyText.text = ": $" + currency.ToString();
     }
 
     public void IncreaseCurrency()

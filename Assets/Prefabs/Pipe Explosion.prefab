@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 2122187754786121489}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.9, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -100,8 +100,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1ee14f99f0ca3c44a94e2c8ee599403, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 25
-  destroyDelay: 20
+  damage: 50
+  destroyDelay: 10
   deathSound: {fileID: 8300000, guid: 69f7d5f02fcbf304486fc5cf52fc6530, type: 3}
 --- !u!82 &955363913856840651
 AudioSource:
@@ -115,7 +115,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 69f7d5f02fcbf304486fc5cf52fc6530, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.37
   m_Pitch: 1
   Loop: 0
   Mute: 0
