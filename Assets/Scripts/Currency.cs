@@ -7,7 +7,7 @@ public class Currency : MonoBehaviour
     public Text currencyText;
 
     // Private variables
-    private int currency = 100;
+    public int currency = 100;
 
     void Start()
     {
@@ -22,6 +22,24 @@ public class Currency : MonoBehaviour
     public void IncreaseCurrency()
     {
         currency += 100;
+        UpdateCurrencyText();
+    }
+
+        public void DecreaseCurrencyPipe()
+    {
+        currency -= 25;
+        UpdateCurrencyText();
+    }
+
+        public void DecreaseCurrencyBomb()
+    {
+        currency -= 50;
+        UpdateCurrencyText();
+    }
+
+    public void DecreaseCurrencyAnvil()
+    {
+        currency -= 75;
         UpdateCurrencyText();
     }
 }

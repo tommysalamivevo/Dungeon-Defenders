@@ -121,7 +121,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 579908665392184737, guid: c78cdfc8c69647e4cb7439eb37ae74fb, type: 3}
         m_TargetAssemblyTypeName: CreateObject, Assembly-CSharp
         m_MethodName: InstantiateNewObject
         m_Mode: 1
