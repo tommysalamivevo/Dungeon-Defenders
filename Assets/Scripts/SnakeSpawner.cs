@@ -29,7 +29,13 @@ public class SnakeSpawner : MonoBehaviour
         {
             Vector3 objectPosition = transform.position;
             yield return new WaitForSeconds(spawnDelay);
-            Instantiate(myGameObject, new Vector3(objectPosition.x, objectPosition.y, 0f), Quaternion.identity);
+            Instantiate(myGameObject, new Vector3(objectPosition.x, objectPosition.y+1, 0f), Quaternion.identity);
         }
     }
+
+    void OnMouseDown()
+    {
+        Destroy(gameObject);
+    }
+
 }

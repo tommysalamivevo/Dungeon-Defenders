@@ -6,7 +6,7 @@ public class HealthMeter : MonoBehaviour
 {
     public GameObject heartPrefab; // The heart prefab to instantiate
     public int numHearts = 3; // The number of hearts to spawn
-    private int remainingHearts; // The number of remaining hearts
+    public int remainingHearts; // The number of remaining hearts
     public float locationX = 0;
     public float locationY = 0;
 
@@ -18,11 +18,12 @@ public class HealthMeter : MonoBehaviour
             GameObject heart = Instantiate(heartPrefab, new Vector3(locationX + (2 * i), locationY, 0f), Quaternion.identity);
             heart.tag = "Heart";
         }
+        remainingHearts++;
     }
 
     void DestroyHeart()
     {
-
+        
         remainingHearts--;
         GameObject[] hearts = GameObject.FindGameObjectsWithTag("Heart");
         Destroy(hearts[numHearts - 2]); // destroy the heart at the correct index

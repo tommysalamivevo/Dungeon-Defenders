@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6891729900478772791}
   - component: {fileID: -961282055162388692}
   - component: {fileID: -6692037581731878130}
+  - component: {fileID: -960212099958910695}
   m_Layer: 0
   m_Name: Bomb Mouseover
   m_TagString: Untagged
@@ -128,3 +129,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myGameObject: {fileID: 3771609763063550280, guid: ad58d0a3a9bcdf64e94acc9a4de57d96, type: 3}
+--- !u!114 &-960212099958910695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4766842508690265265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65d471ed5f5f49944bced68b7c8b30e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

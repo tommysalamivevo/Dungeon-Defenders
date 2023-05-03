@@ -60,7 +60,7 @@ public class UnitMover : MonoBehaviour
 
     void OnMouseDown()
     {
-        Destroy(gameObject);
+        //Destroy(gameObject);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

@@ -101,7 +101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myGameObject: {fileID: 6490719012394144235, guid: f25ab595cdcb60b46ad058fa146367c0, type: 3}
-  damage: 50
+  damage: 100
   destroyDelay: 1
   deathSound: {fileID: 0}
 --- !u!114 &-3391991672638260393
@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 6679089808913876240, guid: 7be1d6b62ce1c184aacedd76a247e468, type: 3}
+  - {fileID: 1414236241348664277, guid: 83de1fd1d4ac1a44284528b19909d293, type: 3}
   speed: 5
   audioSource: {fileID: 0}
   soundEffect: {fileID: 0}

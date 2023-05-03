@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 1035186280098116359}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5.68, y: -1.97, z: 0}
-  m_LocalScale: {x: 4, y: 4, z: 1}
+  m_LocalScale: {x: 2.8, y: 2.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -508198720, guid: 91c1e2f67637c2741b3caba29e24e3dc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -101,7 +101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41bf1bdb00d461e42995eadb893ca1cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 150
+  maxHealth: 225
 --- !u!114 &689953710399879706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115,11 +115,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 6679089808913876240, guid: 7be1d6b62ce1c184aacedd76a247e468, type: 3}
-  - {fileID: 6816599950808387376, guid: 39127904ee8194447873730cf57b0427, type: 3}
-  - {fileID: 8633179399011028213, guid: 6534754ab7b807b4c887fffcc8f942d1, type: 3}
-  - {fileID: 8633179399011028213, guid: 942cb9b50c763714084613ef1a44bb9f, type: 3}
-  speed: 3
+  - {fileID: 580985205375890411, guid: dc6d8380e5f17fb4e8e0efd1c61d943c, type: 3}
+  - {fileID: 580985205375890411, guid: 26c8b72aa0fb9c54ab10da75902a9175, type: 3}
+  - {fileID: 580985205375890411, guid: 48b18549b4f2f28469bf9a8c2b6e53d9, type: 3}
+  - {fileID: 580985205375890411, guid: bdf9b79d377d92a4a88f88a1a8d2fd04, type: 3}
+  speed: 3.2
   audioSource: {fileID: 0}
   soundEffect: {fileID: 0}
   soundEffects: []

@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1ee14f99f0ca3c44a94e2c8ee599403, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 50
+  damage: 35
   destroyDelay: 10
   deathSound: {fileID: 8300000, guid: 69f7d5f02fcbf304486fc5cf52fc6530, type: 3}
 --- !u!82 &955363913856840651
@@ -115,7 +115,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 69f7d5f02fcbf304486fc5cf52fc6530, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.37
+  m_Volume: 0.135
   m_Pitch: 1
   Loop: 0
   Mute: 0

@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 2767345439762712545}
   - component: {fileID: 5152391072584488439}
   - component: {fileID: 5885894907955094215}
+  - component: {fileID: -216086038476614859}
+  - component: {fileID: -568922319978402897}
   m_Layer: 0
   m_Name: Rabbit Enemy
   m_TagString: Enemy
@@ -147,7 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41bf1bdb00d461e42995eadb893ca1cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 75
+  maxHealth: 70
 --- !u!114 &5885894907955094215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -169,3 +171,28 @@ MonoBehaviour:
   audioSource: {fileID: 0}
   soundEffect: {fileID: 0}
   soundEffects: []
+--- !u!114 &-216086038476614859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6224092790112021466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f685584c032104980e6190d7186b90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 50
+--- !u!114 &-568922319978402897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6224092790112021466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65d471ed5f5f49944bced68b7c8b30e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

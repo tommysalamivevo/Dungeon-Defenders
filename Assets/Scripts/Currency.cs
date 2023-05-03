@@ -21,7 +21,7 @@ public class Currency : MonoBehaviour
 
     public void IncreaseCurrency()
     {
-        currency += 100;
+        currency += 80;
         UpdateCurrencyText();
     }
 

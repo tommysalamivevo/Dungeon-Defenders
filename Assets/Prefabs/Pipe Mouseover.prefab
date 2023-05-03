@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1162590554522510128}
   - component: {fileID: 7712654333941427502}
   - component: {fileID: -2240277849315420593}
+  - component: {fileID: 8602950870947268589}
   m_Layer: 0
   m_Name: Pipe Mouseover
   m_TagString: Untagged
@@ -138,3 +139,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myGameObject: {fileID: 2551884531250257736, guid: 4054964f572a417459fc00219f3ac348, type: 3}
+--- !u!114 &8602950870947268589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 982123535831351734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65d471ed5f5f49944bced68b7c8b30e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

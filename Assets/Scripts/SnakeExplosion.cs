@@ -25,11 +25,8 @@ public class SnakeExplosion : MonoBehaviour
 
         if ( collision.gameObject.tag == "Enemy")
         {
-
             Vector3 objectPosition = transform.position;
-        Instantiate(myGameObject, new Vector3(objectPosition.x, objectPosition.y, objectPosition.z), Quaternion.identity );
-
-
+            Instantiate(myGameObject, new Vector3(objectPosition.x, objectPosition.y, objectPosition.z), Quaternion.identity );
             collision.gameObject.GetComponent<EnemyHealth>().TakeDamage(damage);
             Destroy(this.gameObject, destroyDelay);
         }

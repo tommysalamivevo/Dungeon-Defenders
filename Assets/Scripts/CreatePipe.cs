@@ -22,8 +22,10 @@ public class CreatePipe : MonoBehaviour
     public void OnMouseDown() {
         Currency currency = FindObjectOfType<Currency>(); // get a reference to the Currency instance in the scene
 
-        if (currency.currency >= 25) {
+        if (currency.currency >= 75) {
             currency.DecreaseCurrencyPipe(); // access the DecreaseCurrencyBomb method using the reference
+            currency.DecreaseCurrencyPipe();
+            currency.DecreaseCurrencyPipe();
             Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             mousePosition.z = Camera.main.transform.position.z + Camera.main.nearClipPlane;
             Instantiate(myGameObject, new Vector3(mousePosition.x, mousePosition.y, mousePosition.z), Quaternion.identity);

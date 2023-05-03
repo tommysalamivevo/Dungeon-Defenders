@@ -22,8 +22,11 @@ public class CreateSnake : MonoBehaviour
     public void OnMouseDown() {
         Currency currency = FindObjectOfType<Currency>(); // get a reference to the Currency instance in the scene
 
-        if (currency.currency >= 100) {
+        if (currency.currency >= 325) {
             currency.DecreaseCurrencyAnvil(); // access the DecreaseCurrencyBomb method using the reference
+            currency.DecreaseCurrencyAnvil();
+            currency.DecreaseCurrencyAnvil(); 
+            currency.DecreaseCurrencyAnvil();
             currency.DecreaseCurrencyPipe();
             Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             mousePosition.z = Camera.main.transform.position.z + Camera.main.nearClipPlane;

@@ -6,6 +6,7 @@ public class CreateObject : MonoBehaviour
 {
 
     public GameObject myGameObject;
+    public int cost = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -21,7 +22,10 @@ public class CreateObject : MonoBehaviour
 
     public void InstantiateNewObject()
     {
+        Currency currency = FindObjectOfType<Currency>(); // get a reference to the Currency instance in the scene
 
-        Instantiate(myGameObject, new Vector3(0f, 0f, 0f), Quaternion.identity);
+        if (currency.currency >= cost) {
+            Instantiate(myGameObject, new Vector3(0f, 0f, 0f), Quaternion.identity);
+        }
     }
 }
