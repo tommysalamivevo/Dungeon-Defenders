@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41bf1bdb00d461e42995eadb893ca1cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 500
+  maxHealth: 750
 --- !u!114 &5885894907955094215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -165,7 +165,7 @@ MonoBehaviour:
   waypoints:
   - {fileID: 7149438837308302314, guid: 55b523a53872bbc47b62a615c0ad4856, type: 3}
   - {fileID: 7950498824961537053, guid: c29853a5b900c874d91f802bdbd7219c, type: 3}
-  speed: 2.5
+  speed: 3
   audioSource: {fileID: 0}
   soundEffect: {fileID: 0}
   soundEffects: []
@@ -181,7 +181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5f685584c032104980e6190d7186b90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 50
+  damage: 750
 --- !u!82 &-734100381676992893
 AudioSource:
   m_ObjectHideFlags: 0

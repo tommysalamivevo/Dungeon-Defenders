@@ -7,6 +7,7 @@ public class WinOrLose : MonoBehaviour
     public GameObject winScreen;
     public GameObject loseScreen;
     public int intialDelay = 60;
+    private bool didLose = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +22,7 @@ public class WinOrLose : MonoBehaviour
         if(healthmeter.remainingHearts == 0)
         {
             Instantiate(loseScreen, new Vector3(0f, 0f, 0f), Quaternion.identity);
+            didLose = true;
         }
     }
 
@@ -30,7 +32,10 @@ public class WinOrLose : MonoBehaviour
         yield return new WaitForSeconds(intialDelay);
         if(healthmeter.remainingHearts >= -1)
         {
-            Instantiate(winScreen, new Vector3(0f, 0f, 0f), Quaternion.identity);
+            if (didLose == false)
+            {
+                Instantiate(winScreen, new Vector3(0f, 0f, 0f), Quaternion.identity);
+            }   
         }
     }
 }

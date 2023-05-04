@@ -17,6 +17,7 @@ ScriptsOnlyBuild:
     - HealthMeter
     - IgnoreCollision
     - IgnoreEnemy
+    - IgnoreFriendly
     - MoveScene
     - PauseMenu
     - SnakeExplosion
@@ -205,6 +206,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: MoveScene
     methodName: nextScene
+  - assembly: Assembly-CSharp
+    fullTypeName: CreateObject
+    methodName: InstantiateNewObject
   - assembly: Assembly-CSharp
     fullTypeName: CreateObject
     methodName: InstantiateNewObject
@@ -801,6 +805,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 8226}
     - Class: 114
       Script: {instanceID: 8960}
+    - Class: 114
+      Script: {instanceID: 9090}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -916,6 +922,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 8226}
     - Class: 114
       Script: {instanceID: 8960}
+    - Class: 114
+      Script: {instanceID: 9090}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1031,6 +1039,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 8226}
     - Class: 114
       Script: {instanceID: 8960}
+    - Class: 114
+      Script: {instanceID: 9090}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1148,6 +1158,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 8226}
     - Class: 114
       Script: {instanceID: 8960}
+    - Class: 114
+      Script: {instanceID: 9090}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1399,8 +1411,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1930}
     - Class: 114
-      Script: {instanceID: 2270}
-    - Class: 114
       Script: {instanceID: 2426}
     - Class: 114
       Script: {instanceID: 2542}
@@ -1441,7 +1451,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6982}
     - Class: 114
+      Script: {instanceID: 8226}
+    - Class: 114
       Script: {instanceID: 8960}
+    - Class: 114
+      Script: {instanceID: 9090}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2285,7 +2299,7 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
-      Hash: d053de7fa72e8a44be70450f2e70cc24
+      Hash: 9b3f8af21a0bc863075e9fee03ed402d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SnakeExplosion
@@ -2751,6 +2765,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: IgnoreFriendly
   - hash:
       serializedVersion: 2
       Hash: 762a30c8d779b11af16ed9ce1f2d32fa

@@ -335,6 +335,7 @@
 "Assets/Scripts/HealthMeter.cs"
 "Assets/Scripts/IgnoreCollision.cs"
 "Assets/Scripts/IgnoreEnemy.cs"
+"Assets/Scripts/IgnoreFriendly.cs"
 "Assets/Scripts/MoveScene.cs"
 "Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/SnakeExplosion.cs"

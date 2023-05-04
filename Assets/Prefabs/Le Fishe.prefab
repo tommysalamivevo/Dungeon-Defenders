@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 8035206668239395728}
   - component: {fileID: -1626147526241187946}
   - component: {fileID: -4222650688656856294}
+  - component: {fileID: 5927949748383210848}
   m_Layer: 0
   m_Name: Le Fishe
-  m_TagString: Friendly
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -119,7 +120,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.069143, y: 0.0691421}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -130,7 +131,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 9.28, y: 9.28}
+  m_Size: {x: 3.2230897, y: 2.614633}
   m_EdgeRadius: 0
 --- !u!50 &-1626147526241187946
 Rigidbody2D:
@@ -147,7 +148,7 @@ Rigidbody2D:
   m_Mass: 0.5
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0.5
+  m_GravityScale: 0.65
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -165,6 +166,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1ee14f99f0ca3c44a94e2c8ee599403, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 25
-  destroyDelay: 10
+  damage: 125
+  destroyDelay: 5
   deathSound: {fileID: 8300000, guid: 9fcb25aa095661c4b8f521c55ab105e4, type: 3}
+--- !u!114 &5927949748383210848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5823015193132345954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc0fee5207ff4ba4ab7c523f45c75fc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

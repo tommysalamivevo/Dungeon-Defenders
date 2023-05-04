@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -5690576042356733862}
   m_Layer: 0
   m_Name: Pipe Explosion
-  m_TagString: Untagged
+  m_TagString: Friendly
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100,8 +100,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1ee14f99f0ca3c44a94e2c8ee599403, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 35
-  destroyDelay: 10
+  damage: 75
+  destroyDelay: 15
   deathSound: {fileID: 8300000, guid: 69f7d5f02fcbf304486fc5cf52fc6530, type: 3}
 --- !u!82 &955363913856840651
 AudioSource:
@@ -115,7 +115,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 69f7d5f02fcbf304486fc5cf52fc6530, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.135
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0

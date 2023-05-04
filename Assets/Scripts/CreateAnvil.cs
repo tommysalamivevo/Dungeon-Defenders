@@ -22,10 +22,10 @@ public class CreateAnvil : MonoBehaviour
     public void OnMouseDown() {
         Currency currency = FindObjectOfType<Currency>(); // get a reference to the Currency instance in the scene
 
-        if (currency.currency >= 150) {
+        if (currency.currency >= 175) {
             currency.DecreaseCurrencyAnvil(); // access the DecreaseCurrencyBomb method using the reference
             currency.DecreaseCurrencyBomb();
-            currency.DecreaseCurrencyPipe();
+            currency.DecreaseCurrencyBomb();
             Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             mousePosition.z = Camera.main.transform.position.z + Camera.main.nearClipPlane;
             Instantiate(myGameObject, new Vector3(mousePosition.x, mousePosition.y, mousePosition.z), Quaternion.identity);

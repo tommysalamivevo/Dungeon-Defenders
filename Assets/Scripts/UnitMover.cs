@@ -65,7 +65,7 @@ public class UnitMover : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Friendly"))
+        if (collision.gameObject.CompareTag("Player"))
         {
             Destroy(gameObject);
         }
@@ -75,7 +75,11 @@ public class UnitMover : MonoBehaviour
     {
         if (currencyScript != null)
         {
-            currencyScript.IncreaseCurrency();
+            if(gameObject.tag == "Enemy")
+            {
+                currencyScript.IncreaseCurrency();
+            }
+            
         }
     }
 

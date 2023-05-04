@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41bf1bdb00d461e42995eadb893ca1cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 1500
+  maxHealth: 2000
 --- !u!114 &2060482456131747498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,7 +170,7 @@ MonoBehaviour:
   - {fileID: 1414236241348664277, guid: 83de1fd1d4ac1a44284528b19909d293, type: 3}
   - {fileID: 1248590511031363659, guid: d7178da7c344ab148a09765cee26a3b1, type: 3}
   - {fileID: 7950498824961537053, guid: c29853a5b900c874d91f802bdbd7219c, type: 3}
-  speed: 2
+  speed: 1.98
   audioSource: {fileID: 0}
   soundEffect: {fileID: 0}
   soundEffects: []
@@ -186,7 +186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5f685584c032104980e6190d7186b90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 100
+  damage: 2000
 --- !u!82 &5563823349810328296
 AudioSource:
   m_ObjectHideFlags: 0

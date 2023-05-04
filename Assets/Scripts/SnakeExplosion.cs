@@ -6,6 +6,7 @@ public class SnakeExplosion : MonoBehaviour
 {   
     public GameObject myGameObject;
     public int damage = 50;
+    public int intialDelay = 20;
     public int destroyDelay = 1;
     public AudioClip deathSound; // The audio clip to play upon death
     private AudioSource audioSource; // Reference to the audio source component
@@ -13,6 +14,7 @@ public class SnakeExplosion : MonoBehaviour
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        Destroy(this.gameObject, intialDelay);
     }
 
     // Update is called once per frame

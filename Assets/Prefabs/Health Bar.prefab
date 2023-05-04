@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 7409122119807856880}
   m_Layer: 5
   m_Name: Health Bar
-  m_TagString: Friendly
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56,6 +56,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   heartPrefab: {fileID: 0}
   numHearts: 3
+  remainingHearts: 0
   locationX: 3.6
   locationY: 4
 --- !u!61 &7409122119807856892

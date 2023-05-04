@@ -291,7 +291,7 @@ GameObject:
   - component: {fileID: 48726282}
   m_Layer: 5
   m_Name: Health Bar
-  m_TagString: Friendly
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1852,7 +1852,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6113570130986581773, guid: 3158f9afdf4311743967f02cd64c6930, type: 3}
       propertyPath: numSpawns
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6113570130986581773, guid: 3158f9afdf4311743967f02cd64c6930, type: 3}
       propertyPath: spawnDelay
@@ -5644,7 +5644,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6100084774781445702, guid: a16447675c02f194bb63619d709efe15, type: 3}
       propertyPath: intialDelay
-      value: 100
+      value: 97
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a16447675c02f194bb63619d709efe15, type: 3}
@@ -9707,6 +9707,87 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2133609589}
   m_CullTransparentMesh: 1
+--- !u!1001 &2133909718
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2138512308180005949, guid: 3158f9afdf4311743967f02cd64c6930, type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 2138512308180005949, guid: 3158f9afdf4311743967f02cd64c6930, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2138512308180005949, guid: 3158f9afdf4311743967f02cd64c6930, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2138512308180005949, guid: 3158f9afdf4311743967f02cd64c6930, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2138512308180005949, guid: 3158f9afdf4311743967f02cd64c6930, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2138512308180005949, guid: 3158f9afdf4311743967f02cd64c6930, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2138512308180005949, guid: 3158f9afdf4311743967f02cd64c6930, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2138512308180005949, guid: 3158f9afdf4311743967f02cd64c6930, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2138512308180005949, guid: 3158f9afdf4311743967f02cd64c6930, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2138512308180005949, guid: 3158f9afdf4311743967f02cd64c6930, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2138512308180005949, guid: 3158f9afdf4311743967f02cd64c6930, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5527608438132137948, guid: 3158f9afdf4311743967f02cd64c6930, type: 3}
+      propertyPath: m_Name
+      value: Boss Squid Spawner (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6113570130986581773, guid: 3158f9afdf4311743967f02cd64c6930, type: 3}
+      propertyPath: locationX
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6113570130986581773, guid: 3158f9afdf4311743967f02cd64c6930, type: 3}
+      propertyPath: locationY
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6113570130986581773, guid: 3158f9afdf4311743967f02cd64c6930, type: 3}
+      propertyPath: numSpawns
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6113570130986581773, guid: 3158f9afdf4311743967f02cd64c6930, type: 3}
+      propertyPath: spawnDelay
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6113570130986581773, guid: 3158f9afdf4311743967f02cd64c6930, type: 3}
+      propertyPath: intialDelay
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 6113570130986581773, guid: 3158f9afdf4311743967f02cd64c6930, type: 3}
+      propertyPath: myGameObject
+      value: 
+      objectReference: {fileID: 1035186280098116359, guid: 86567edfd4b4a4d43bc2b1c6eb7e49c8, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3158f9afdf4311743967f02cd64c6930, type: 3}
 --- !u!1 &2139083003
 GameObject:
   m_ObjectHideFlags: 0

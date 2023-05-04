@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1ee14f99f0ca3c44a94e2c8ee599403, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 500
+  damage: 375
   destroyDelay: 1
   deathSound: {fileID: 8300000, guid: e73bec084eee8264cae9cf999aa2d7fe, type: 3}
 --- !u!82 &955363913856840651

@@ -22,8 +22,9 @@ public class CreateFishBowl : MonoBehaviour
     public void OnMouseDown() {
         Currency currency = FindObjectOfType<Currency>(); // get a reference to the Currency instance in the scene
 
-        if (currency.currency >= 225) {
+        if (currency.currency >= 275) {
             currency.DecreaseCurrencyAnvil(); // access the DecreaseCurrencyBomb method using the reference
+            currency.DecreaseCurrencyBomb();
             currency.DecreaseCurrencyBomb();
             currency.DecreaseCurrencyBomb();
             currency.DecreaseCurrencyBomb();
