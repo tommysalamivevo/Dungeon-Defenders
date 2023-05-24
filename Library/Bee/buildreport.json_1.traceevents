@@ -1,517 +1,517 @@
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 0, "tid": 1, "ts": 1683161495180735, "dur": 131987, "ph": "X", "name": "Build Player", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1683161495180916, "dur": 6924, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1683161495187842, "dur": 113355, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1683161495301199, "dur": 11522, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1683161495313809, "dur": 9, "ph": "X", "name": "", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683237641388104, "dur": 185973, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683237641388316, "dur": 13870, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683237641402208, "dur": 168220, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683237641570430, "dur": 3645, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683237641574715, "dur": 8, "ph": "X", "name": "", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1683161495220486, "dur":1063, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495221556, "dur":238, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1683161495221826, "dur":19, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1683161495221845, "dur":414, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1683161495222290, "dur":492, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495222782, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495271515, "dur":429, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495271945, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495271967, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495271971, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495271980, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495271982, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495271993, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495271995, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495272007, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495272009, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495272027, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495272029, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495272036, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495272038, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495272047, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495272049, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495272057, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495272058, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495272065, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495272067, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495272076, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495272078, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495272084, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495272086, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495272095, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495272096, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495272103, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495272104, "dur":929, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495273033, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495273036, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495273044, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495273046, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495273055, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495273088, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495273124, "dur":2770, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1683161495222794, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683161495222795, "dur":6015, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683161495228818, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1683161495228821, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683161495228969, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1683161495228971, "dur":309, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683161495229281, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683161495229596, "dur":350, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683161495229948, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683161495230023, "dur":355, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683161495230379, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683161495230672, "dur":200, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683161495230873, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683161495230919, "dur":306, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683161495231226, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683161495231284, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683161495231346, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683161495231408, "dur":435, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683161495231844, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683161495232071, "dur":190, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683161495232262, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":1, "ts":1683161495232344, "dur":214, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683161495232559, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets8.resource" }}
-,{ "pid":12345, "tid":1, "ts":1683161495232714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1683161495257624, "dur":5310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets8.resource" }}
-,{ "pid":12345, "tid":1, "ts":1683161495262974, "dur":8548, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683161495223004, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683161495223004, "dur":5821, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683161495228826, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1683161495229050, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683161495229178, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":2, "ts":1683161495229242, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683161495229288, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683161495229404, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683161495229469, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683161495229526, "dur":840, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683161495230367, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683161495230452, "dur":215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683161495230668, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683161495230738, "dur":319, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683161495231058, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683161495231093, "dur":254, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683161495231347, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683161495231472, "dur":405, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683161495231877, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683161495231933, "dur":431, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683161495232365, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":2, "ts":1683161495232421, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683161495232589, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets7.resource" }}
-,{ "pid":12345, "tid":2, "ts":1683161495232778, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1683161495259943, "dur":7871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets7.resource" }}
-,{ "pid":12345, "tid":2, "ts":1683161495267884, "dur":3622, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1683161495223783, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1683161495223783, "dur":5029, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1683161495228818, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":3, "ts":1683161495229109, "dur":273, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1683161495229383, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders.exe" }}
-,{ "pid":12345, "tid":3, "ts":1683161495229427, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1683161495229461, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1683161495229508, "dur":887, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1683161495230395, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1683161495230489, "dur":390, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1683161495230880, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1683161495230925, "dur":278, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1683161495231204, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1683161495231247, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1683161495231343, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1683161495231379, "dur":480, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1683161495231860, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.2D.IK.Runtime.dll" }}
-,{ "pid":12345, "tid":3, "ts":1683161495232025, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1683161495232220, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":3, "ts":1683161495232260, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1683161495232354, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":3, "ts":1683161495232421, "dur":209, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1683161495232631, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets6.assets" }}
-,{ "pid":12345, "tid":3, "ts":1683161495232862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1683161495232985, "dur":2219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets6.assets" }}
-,{ "pid":12345, "tid":3, "ts":1683161495235240, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":3, "ts":1683161495235310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1683161495235314, "dur":929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":3, "ts":1683161495236268, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets3.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1683161495236299, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1683161495236302, "dur":1560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets3.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1683161495237926, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":3, "ts":1683161495237993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1683161495237999, "dur":1761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":3, "ts":1683161495239812, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets10.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1683161495239880, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1683161495239886, "dur":15782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets10.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1683161495255728, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/level8" }}
-,{ "pid":12345, "tid":3, "ts":1683161495255791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1683161495255796, "dur":3754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/level8" }}
-,{ "pid":12345, "tid":3, "ts":1683161495259607, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/level0" }}
-,{ "pid":12345, "tid":3, "ts":1683161495259671, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1683161495259676, "dur":3779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/level0" }}
-,{ "pid":12345, "tid":3, "ts":1683161495263502, "dur":8016, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683161495223436, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683161495223436, "dur":5378, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683161495228818, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1683161495228975, "dur":536, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683161495229512, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683161495229587, "dur":813, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683161495230401, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683161495230489, "dur":470, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683161495230960, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683161495230986, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683161495231140, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683161495231176, "dur":339, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683161495231516, "dur":444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683161495231960, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683161495232036, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":4, "ts":1683161495232096, "dur":446, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683161495232543, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets9.assets" }}
-,{ "pid":12345, "tid":4, "ts":1683161495232711, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683161495257200, "dur":2168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets9.assets" }}
-,{ "pid":12345, "tid":4, "ts":1683161495259427, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/level1" }}
-,{ "pid":12345, "tid":4, "ts":1683161495259495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1683161495259500, "dur":3968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/level1" }}
-,{ "pid":12345, "tid":4, "ts":1683161495263508, "dur":7997, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683161495223037, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683161495223038, "dur":5791, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683161495228831, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":5, "ts":1683161495229141, "dur":506, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683161495229648, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683161495229685, "dur":693, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683161495230379, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683161495230460, "dur":401, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683161495230861, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683161495230902, "dur":246, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683161495231149, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683161495231185, "dur":338, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683161495231524, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683161495231651, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683161495231786, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683161495231833, "dur":189, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683161495232023, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":5, "ts":1683161495232076, "dur":330, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683161495232407, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets9.resource" }}
-,{ "pid":12345, "tid":5, "ts":1683161495232462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683161495233142, "dur":4350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets9.resource" }}
-,{ "pid":12345, "tid":5, "ts":1683161495237582, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1683161495237658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683161495237664, "dur":5216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1683161495242937, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":5, "ts":1683161495243001, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683161495243005, "dur":1134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":5, "ts":1683161495244188, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1683161495244250, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683161495244299, "dur":13806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1683161495258154, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/level3" }}
-,{ "pid":12345, "tid":5, "ts":1683161495258297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1683161495258302, "dur":2752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/level3" }}
-,{ "pid":12345, "tid":5, "ts":1683161495261127, "dur":10367, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1683161495223132, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1683161495223133, "dur":5694, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1683161495228827, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1683161495229143, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1683161495229201, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":6, "ts":1683161495229272, "dur":238, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1683161495229511, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1683161495229573, "dur":786, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1683161495230359, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1683161495230421, "dur":239, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1683161495230660, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1683161495230703, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1683161495230767, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1683161495230799, "dur":300, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1683161495231100, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1683161495231129, "dur":397, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1683161495231527, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.Burst.Unsafe.dll" }}
-,{ "pid":12345, "tid":6, "ts":1683161495231574, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1683161495231724, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
-,{ "pid":12345, "tid":6, "ts":1683161495231774, "dur":199, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1683161495231977, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":6, "ts":1683161495232028, "dur":358, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1683161495232386, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":6, "ts":1683161495232427, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1683161495232603, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets7.assets" }}
-,{ "pid":12345, "tid":6, "ts":1683161495232842, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1683161495269480, "dur":1930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets7.assets" }}
-,{ "pid":12345, "tid":6, "ts":1683161495271463, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":6, "ts":1683161495271465, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1683161495223232, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1683161495223233, "dur":5594, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1683161495228828, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1683161495229099, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1683161495229182, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":7, "ts":1683161495229251, "dur":217, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1683161495229468, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1683161495229523, "dur":837, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1683161495230360, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1683161495230423, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1683161495230586, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1683161495230618, "dur":642, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1683161495231260, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1683161495231347, "dur":357, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1683161495231704, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
-,{ "pid":12345, "tid":7, "ts":1683161495231741, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1683161495231838, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
-,{ "pid":12345, "tid":7, "ts":1683161495232039, "dur":188, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1683161495232228, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":7, "ts":1683161495232379, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1683161495232534, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets9.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1683161495232577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1683161495233493, "dur":1792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets9.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1683161495235316, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets4.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1683161495235366, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1683161495235369, "dur":20902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets4.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1683161495256321, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/level6" }}
-,{ "pid":12345, "tid":7, "ts":1683161495256374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1683161495256378, "dur":2441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/level6" }}
-,{ "pid":12345, "tid":7, "ts":1683161495258881, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/level10" }}
-,{ "pid":12345, "tid":7, "ts":1683161495258937, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1683161495258942, "dur":3620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/level10" }}
-,{ "pid":12345, "tid":7, "ts":1683161495262620, "dur":8877, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1683161495223824, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1683161495223825, "dur":5075, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1683161495228902, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1683161495229122, "dur":280, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1683161495229403, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":8, "ts":1683161495229513, "dur":189, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1683161495229703, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1683161495229740, "dur":685, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1683161495230427, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1683161495230551, "dur":466, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1683161495231018, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1683161495231066, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1683161495231226, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1683161495231275, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1683161495231349, "dur":480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":8, "ts":1683161495231830, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1683161495231977, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":8, "ts":1683161495232021, "dur":373, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1683161495232395, "dur":30627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Plugins/x86_64/lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":8, "ts":1683161495263054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1683161495263340, "dur":4729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/Plugins/x86_64/lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":8, "ts":1683161495268147, "dur":3374, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1683161495223614, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1683161495223614, "dur":5201, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1683161495228818, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":9, "ts":1683161495229066, "dur":528, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1683161495229596, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1683161495229702, "dur":724, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1683161495230427, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1683161495230569, "dur":639, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1683161495231209, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1683161495231252, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1683161495231346, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1683161495231390, "dur":467, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1683161495231858, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.2D.PixelPerfect.dll" }}
-,{ "pid":12345, "tid":9, "ts":1683161495232036, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1683161495232116, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":9, "ts":1683161495232156, "dur":453, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1683161495232610, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets6.assets.resS" }}
-,{ "pid":12345, "tid":9, "ts":1683161495232837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1683161495261865, "dur":7851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets6.assets.resS" }}
-,{ "pid":12345, "tid":9, "ts":1683161495269749, "dur":1759, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1683161495223749, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1683161495223749, "dur":5067, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1683161495228821, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":10, "ts":1683161495228968, "dur":411, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1683161495229380, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":10, "ts":1683161495229468, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1683161495229648, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1683161495229682, "dur":732, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1683161495230415, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1683161495230496, "dur":491, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1683161495230988, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1683161495231020, "dur":186, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1683161495231206, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1683161495231249, "dur":271, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1683161495231521, "dur":695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":10, "ts":1683161495232216, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1683161495232285, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":10, "ts":1683161495232348, "dur":315, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1683161495232663, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets5.assets.resS" }}
-,{ "pid":12345, "tid":10, "ts":1683161495232710, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1683161495239498, "dur":17923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets5.assets.resS" }}
-,{ "pid":12345, "tid":10, "ts":1683161495257469, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/level5" }}
-,{ "pid":12345, "tid":10, "ts":1683161495257518, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1683161495257522, "dur":2814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/level5" }}
-,{ "pid":12345, "tid":10, "ts":1683161495260387, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":10, "ts":1683161495260444, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1683161495260447, "dur":6197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":10, "ts":1683161495266693, "dur":4810, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1683161495223861, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1683161495223862, "dur":4958, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1683161495228822, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":11, "ts":1683161495229108, "dur":412, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1683161495229521, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1683161495229584, "dur":812, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1683161495230396, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1683161495230482, "dur":401, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1683161495230883, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1683161495230926, "dur":328, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1683161495231255, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1683161495231339, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1683161495231390, "dur":588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":11, "ts":1683161495231978, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1683161495232051, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.Runtime.dll" }}
-,{ "pid":12345, "tid":11, "ts":1683161495232104, "dur":497, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1683161495232602, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets7.assets.resS" }}
-,{ "pid":12345, "tid":11, "ts":1683161495232784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1683161495261237, "dur":7044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets7.assets.resS" }}
-,{ "pid":12345, "tid":11, "ts":1683161495268325, "dur":3195, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1683161495223877, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1683161495223877, "dur":5025, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1683161495228903, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":12, "ts":1683161495229202, "dur":379, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1683161495229582, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1683161495229625, "dur":762, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1683161495230387, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1683161495230468, "dur":402, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1683161495230871, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1683161495230912, "dur":288, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1683161495231201, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1683161495231249, "dur":371, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1683161495231621, "dur":340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.Burst.dll" }}
-,{ "pid":12345, "tid":12, "ts":1683161495231961, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1683161495232100, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":12, "ts":1683161495232146, "dur":439, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1683161495232586, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets8.assets" }}
-,{ "pid":12345, "tid":12, "ts":1683161495232775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1683161495258765, "dur":4314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets8.assets" }}
-,{ "pid":12345, "tid":12, "ts":1683161495263120, "dur":8406, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1683161495223899, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1683161495223899, "dur":4932, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1683161495228832, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":13, "ts":1683161495229067, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1683161495229151, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":13, "ts":1683161495229209, "dur":209, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1683161495229419, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1683161495229478, "dur":875, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1683161495230354, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1683161495230416, "dur":212, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1683161495230629, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1683161495230656, "dur":623, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1683161495231280, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1683161495231348, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1683161495231422, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":13, "ts":1683161495231627, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1683161495231822, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.Burst.Cecil.dll" }}
-,{ "pid":12345, "tid":13, "ts":1683161495231880, "dur":346, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1683161495232227, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":13, "ts":1683161495232266, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1683161495232392, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":13, "ts":1683161495232582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1683161495239128, "dur":1853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":13, "ts":1683161495241037, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets10.assets" }}
-,{ "pid":12345, "tid":13, "ts":1683161495241097, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1683161495241103, "dur":1083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets10.assets" }}
-,{ "pid":12345, "tid":13, "ts":1683161495242235, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":13, "ts":1683161495242300, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1683161495242303, "dur":4559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":13, "ts":1683161495246915, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":13, "ts":1683161495247005, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1683161495247018, "dur":4003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":13, "ts":1683161495251083, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":13, "ts":1683161495251292, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1683161495251304, "dur":4884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":13, "ts":1683161495256250, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/level7" }}
-,{ "pid":12345, "tid":13, "ts":1683161495256344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1683161495256348, "dur":2016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/level7" }}
-,{ "pid":12345, "tid":13, "ts":1683161495258415, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/level2" }}
-,{ "pid":12345, "tid":13, "ts":1683161495258478, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1683161495258483, "dur":1988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/level2" }}
-,{ "pid":12345, "tid":13, "ts":1683161495260511, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/boot.config" }}
-,{ "pid":12345, "tid":13, "ts":1683161495260640, "dur":229, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1683161495260870, "dur":10625, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1683161495223921, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1683161495223921, "dur":4902, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1683161495228825, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":14, "ts":1683161495229124, "dur":316, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1683161495229441, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1683161495229510, "dur":845, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1683161495230355, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1683161495230417, "dur":233, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1683161495230650, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1683161495230700, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1683161495230764, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1683161495230797, "dur":234, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1683161495231032, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1683161495231078, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1683161495231141, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1683161495231185, "dur":682, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1683161495231868, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
-,{ "pid":12345, "tid":14, "ts":1683161495232047, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1683161495232205, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":14, "ts":1683161495232249, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1683161495232312, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":14, "ts":1683161495232360, "dur":219, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1683161495232580, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets8.assets.resS" }}
-,{ "pid":12345, "tid":14, "ts":1683161495232717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1683161495258127, "dur":2461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets8.assets.resS" }}
-,{ "pid":12345, "tid":14, "ts":1683161495260628, "dur":10871, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1683161495224013, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1683161495224013, "dur":4804, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1683161495228818, "dur":364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":15, "ts":1683161495229182, "dur":327, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1683161495229510, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1683161495229570, "dur":809, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1683161495230380, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1683161495230462, "dur":412, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1683161495230874, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1683161495230921, "dur":425, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1683161495231346, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1683161495231413, "dur":447, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1683161495231861, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.2D.Common.Runtime.dll" }}
-,{ "pid":12345, "tid":15, "ts":1683161495232042, "dur":196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1683161495232239, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":15, "ts":1683161495232278, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1683161495232396, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":15, "ts":1683161495232448, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1683161495233040, "dur":2276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":15, "ts":1683161495235350, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":15, "ts":1683161495235386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1683161495235389, "dur":996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":15, "ts":1683161495236452, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":15, "ts":1683161495236512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1683161495236518, "dur":1513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":15, "ts":1683161495238089, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets10.resource" }}
-,{ "pid":12345, "tid":15, "ts":1683161495238147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1683161495238152, "dur":9425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets10.resource" }}
-,{ "pid":12345, "tid":15, "ts":1683161495247654, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":15, "ts":1683161495247935, "dur":1912, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1683161495249854, "dur":1939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":15, "ts":1683161495251795, "dur":317, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1683161495252117, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/resources.assets" }}
-,{ "pid":12345, "tid":15, "ts":1683161495252225, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1683161495252233, "dur":3415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/resources.assets" }}
-,{ "pid":12345, "tid":15, "ts":1683161495255701, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/level9" }}
-,{ "pid":12345, "tid":15, "ts":1683161495255781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1683161495255790, "dur":2119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/level9" }}
-,{ "pid":12345, "tid":15, "ts":1683161495257961, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/level4" }}
-,{ "pid":12345, "tid":15, "ts":1683161495258029, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1683161495258033, "dur":2274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/level4" }}
-,{ "pid":12345, "tid":15, "ts":1683161495260350, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":15, "ts":1683161495260400, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1683161495260404, "dur":4086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":15, "ts":1683161495264539, "dur":6974, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1683161495223937, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1683161495223937, "dur":4885, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1683161495228823, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":16, "ts":1683161495228974, "dur":429, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1683161495229404, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1683161495229461, "dur":652, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1683161495230113, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1683161495230144, "dur":350, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1683161495230495, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1683161495230558, "dur":557, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1683161495231115, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1683161495231158, "dur":260, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1683161495231419, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":16, "ts":1683161495231461, "dur":411, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1683161495231872, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":16, "ts":1683161495231928, "dur":306, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1683161495232234, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":16, "ts":1683161495232273, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1683161495232385, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":16, "ts":1683161495232436, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1683161495232603, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets6.resource" }}
-,{ "pid":12345, "tid":16, "ts":1683161495232782, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1683161495260708, "dur":7799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets6.resource" }}
-,{ "pid":12345, "tid":16, "ts":1683161495268548, "dur":2953, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1683161495277378, "dur":2411, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 0, "tid": 1, "ts": 1683161495313898, "dur": 429, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1683161495313797, "dur": 546, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+,{ "pid":12345, "tid":0, "ts":1683237641452823, "dur":1246, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641454075, "dur":241, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1683237641454348, "dur":23, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1683237641454371, "dur":1337, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1683237641455722, "dur":961, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641456683, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641540528, "dur":99, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641540627, "dur":753, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641541380, "dur":119, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641541501, "dur":96, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641541597, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641541601, "dur":162, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641541763, "dur":144, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641541907, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641541922, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641541924, "dur":60, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641541984, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641541985, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641541988, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641541990, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641541995, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641541996, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641542000, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641542001, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641542005, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641542006, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641542009, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641542010, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641542013, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641542013, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641542016, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641542017, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641542021, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641542022, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641542025, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641542025, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641542029, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641542030, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641542033, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641542053, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641542071, "dur":1939, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1683237641457664, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683237641457665, "dur":9420, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683237641467088, "dur":421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1683237641467509, "dur":5939, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683237641473449, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683237641473703, "dur":1862, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683237641475566, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683237641475625, "dur":805, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683237641476431, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683237641476576, "dur":1165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683237641477742, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683237641477879, "dur":331, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683237641478211, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683237641478283, "dur":323, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683237641478606, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683237641478662, "dur":251, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683237641478913, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683237641478969, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683237641479164, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683237641479375, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683237641536047, "dur":4422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683237641540491, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1683237641540492, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683237641457879, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683237641457880, "dur":9285, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683237641467167, "dur":472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1683237641467639, "dur":6274, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683237641473914, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683237641474035, "dur":1591, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683237641475627, "dur":801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683237641476429, "dur":659, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683237641477088, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683237641477205, "dur":922, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683237641478128, "dur":826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683237641478954, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683237641479029, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":2, "ts":1683237641479078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683237641489294, "dur":5626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":2, "ts":1683237641494998, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1683237641495092, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683237641495097, "dur":5944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1683237641501089, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":2, "ts":1683237641501143, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683237641501147, "dur":1463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":2, "ts":1683237641502655, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1683237641502740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683237641502746, "dur":3411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1683237641506207, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1683237641506385, "dur":295, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683237641506682, "dur":1126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1683237641507810, "dur":185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683237641507998, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/level9" }}
+,{ "pid":12345, "tid":2, "ts":1683237641508139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683237641508143, "dur":1547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/level9" }}
+,{ "pid":12345, "tid":2, "ts":1683237641509738, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/level5" }}
+,{ "pid":12345, "tid":2, "ts":1683237641509791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683237641509795, "dur":2532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/level5" }}
+,{ "pid":12345, "tid":2, "ts":1683237641512408, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1683237641512491, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683237641512529, "dur":3993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1683237641516579, "dur":23934, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683237641458708, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683237641458709, "dur":8476, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683237641467187, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1683237641467521, "dur":5848, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683237641473370, "dur":363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683237641473733, "dur":1899, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683237641475632, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683237641475697, "dur":663, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683237641476361, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683237641476423, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683237641476570, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683237641476619, "dur":1250, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683237641477870, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683237641478001, "dur":375, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683237641478377, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683237641478499, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683237641478566, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683237641478624, "dur":226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683237641478850, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683237641478899, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683237641479102, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":3, "ts":1683237641479159, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683237641525784, "dur":2715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":3, "ts":1683237641528519, "dur":12049, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683237641457207, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683237641457208, "dur":9983, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683237641467191, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1683237641467411, "dur":2544, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683237641469956, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1683237641470225, "dur":2613, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683237641472839, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1683237641473146, "dur":593, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683237641473740, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683237641473938, "dur":1659, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683237641475598, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683237641475685, "dur":509, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683237641476195, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683237641476307, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683237641476405, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683237641476500, "dur":584, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683237641477085, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683237641477213, "dur":538, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683237641477751, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683237641478136, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683237641478343, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683237641478478, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683237641478543, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683237641478591, "dur":409, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683237641479000, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets9.resource" }}
+,{ "pid":12345, "tid":4, "ts":1683237641479050, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683237641480143, "dur":8838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets9.resource" }}
+,{ "pid":12345, "tid":4, "ts":1683237641489014, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":4, "ts":1683237641489063, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683237641489066, "dur":5840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":4, "ts":1683237641494940, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1683237641494974, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683237641494976, "dur":1972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1683237641496996, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1683237641497085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683237641497093, "dur":1952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1683237641499156, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets10.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1683237641499201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683237641499204, "dur":9579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets10.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1683237641508848, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/level7" }}
+,{ "pid":12345, "tid":4, "ts":1683237641508943, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683237641508947, "dur":2041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/level7" }}
+,{ "pid":12345, "tid":4, "ts":1683237641511037, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1683237641511105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683237641511110, "dur":3883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1683237641515045, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1683237641515204, "dur":199, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683237641515404, "dur":25168, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683237641457367, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683237641457368, "dur":9811, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683237641467181, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1683237641467450, "dur":3796, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683237641471246, "dur":615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683237641471862, "dur":1212, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683237641473075, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683237641473304, "dur":2389, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683237641475694, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683237641475870, "dur":561, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683237641476432, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683237641476571, "dur":640, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683237641477212, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683237641477288, "dur":766, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683237641478054, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683237641478346, "dur":210, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683237641478557, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683237641478615, "dur":233, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683237641478848, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683237641478895, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683237641478976, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683237641479152, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683237641519992, "dur":1827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683237641521840, "dur":18758, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683237641457592, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683237641457592, "dur":9577, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683237641467169, "dur":467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1683237641467636, "dur":5232, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683237641472869, "dur":436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1683237641473305, "dur":639, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683237641473945, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683237641474108, "dur":1584, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683237641475693, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683237641475866, "dur":404, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683237641476271, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683237641476348, "dur":289, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683237641476637, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683237641476887, "dur":304, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683237641477192, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683237641477265, "dur":791, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683237641478057, "dur":549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683237641478606, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683237641478703, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683237641478808, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683237641478908, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683237641478962, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683237641479096, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1683237641479146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683237641519508, "dur":4210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1683237641523742, "dur":16828, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683237641456989, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683237641456990, "dur":10091, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683237641467088, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1683237641467090, "dur":501, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683237641467598, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1683237641467618, "dur":876, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683237641468495, "dur":471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1683237641468966, "dur":4170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683237641473137, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683237641473324, "dur":2315, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683237641475640, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683237641475703, "dur":686, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683237641476390, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683237641476491, "dur":791, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683237641477282, "dur":454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683237641477736, "dur":534, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683237641478271, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683237641478348, "dur":352, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683237641478701, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683237641478821, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683237641478941, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683237641478989, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683237641479062, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets7.resource" }}
+,{ "pid":12345, "tid":7, "ts":1683237641479122, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683237641500537, "dur":3844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets7.resource" }}
+,{ "pid":12345, "tid":7, "ts":1683237641504430, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1683237641504492, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683237641504499, "dur":1251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1683237641505803, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1683237641505866, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683237641505899, "dur":9365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1683237641515326, "dur":25255, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683237641458080, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683237641458080, "dur":9120, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683237641467202, "dur":461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1683237641467663, "dur":6234, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683237641473898, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683237641474088, "dur":2107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683237641476196, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683237641476302, "dur":293, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683237641476595, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683237641476641, "dur":1134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683237641477775, "dur":629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683237641478404, "dur":255, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683237641478660, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683237641478765, "dur":241, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683237641479006, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets9.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1683237641479060, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683237641488692, "dur":6069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets9.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1683237641494826, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1683237641494918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683237641494921, "dur":2710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1683237641497711, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets10.resource" }}
+,{ "pid":12345, "tid":8, "ts":1683237641497795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683237641497803, "dur":8161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets10.resource" }}
+,{ "pid":12345, "tid":8, "ts":1683237641506089, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1683237641506177, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683237641506182, "dur":1443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1683237641507693, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1683237641507774, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683237641507783, "dur":2640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1683237641510768, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/level3" }}
+,{ "pid":12345, "tid":8, "ts":1683237641510887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683237641510892, "dur":3048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/level3" }}
+,{ "pid":12345, "tid":8, "ts":1683237641513988, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1683237641514042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683237641514047, "dur":3024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1683237641517115, "dur":23411, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683237641458273, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683237641458273, "dur":8808, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683237641467088, "dur":500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1683237641467589, "dur":3556, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683237641471206, "dur":647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683237641471854, "dur":1251, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683237641473106, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683237641473340, "dur":2258, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683237641475598, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683237641475669, "dur":622, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683237641476298, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683237641476389, "dur":307, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683237641476697, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683237641476879, "dur":858, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683237641477738, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683237641477965, "dur":244, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683237641478209, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683237641478274, "dur":278, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683237641478553, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683237641478625, "dur":351, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683237641478977, "dur":27227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683237641506211, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683237641506930, "dur":1520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683237641508516, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/level8" }}
+,{ "pid":12345, "tid":9, "ts":1683237641508579, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683237641508585, "dur":2036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/level8" }}
+,{ "pid":12345, "tid":9, "ts":1683237641510673, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/level4" }}
+,{ "pid":12345, "tid":9, "ts":1683237641510745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683237641510750, "dur":2780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/level4" }}
+,{ "pid":12345, "tid":9, "ts":1683237641513576, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1683237641513641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683237641513646, "dur":3293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1683237641516970, "dur":23637, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683237641458494, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683237641458494, "dur":8703, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683237641467198, "dur":463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1683237641467661, "dur":5153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683237641472815, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683237641473100, "dur":199, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683237641473300, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683237641473381, "dur":2215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683237641475597, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683237641475694, "dur":521, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683237641476216, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683237641476348, "dur":230, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683237641476578, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683237641476630, "dur":1227, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683237641477858, "dur":791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683237641478649, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683237641478783, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683237641478856, "dur":189, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683237641479046, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets8.resource" }}
+,{ "pid":12345, "tid":10, "ts":1683237641479115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683237641499653, "dur":7609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets8.resource" }}
+,{ "pid":12345, "tid":10, "ts":1683237641507304, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1683237641507345, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683237641507348, "dur":4222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1683237641511613, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/level1" }}
+,{ "pid":12345, "tid":10, "ts":1683237641511660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683237641511664, "dur":4487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/level1" }}
+,{ "pid":12345, "tid":10, "ts":1683237641516248, "dur":24347, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683237641458935, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683237641458935, "dur":8268, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683237641467204, "dur":447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1683237641467651, "dur":6266, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683237641473919, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683237641474099, "dur":1499, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683237641475599, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683237641475712, "dur":649, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683237641476361, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683237641476419, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683237641476566, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683237641476617, "dur":1132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683237641477750, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683237641477972, "dur":309, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683237641478282, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683237641478500, "dur":194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683237641478695, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683237641478794, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683237641478999, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1683237641479049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683237641479787, "dur":6418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1683237641486237, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":11, "ts":1683237641486331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683237641486334, "dur":2064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":11, "ts":1683237641488421, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1683237641488486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683237641488489, "dur":20548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1683237641509092, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/level6" }}
+,{ "pid":12345, "tid":11, "ts":1683237641509142, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683237641509146, "dur":2067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/level6" }}
+,{ "pid":12345, "tid":11, "ts":1683237641511351, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/level10" }}
+,{ "pid":12345, "tid":11, "ts":1683237641511398, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683237641511402, "dur":3719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/level10" }}
+,{ "pid":12345, "tid":11, "ts":1683237641515167, "dur":25347, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683237641459204, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683237641459204, "dur":7990, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683237641467196, "dur":430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1683237641467626, "dur":5516, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683237641473143, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683237641473469, "dur":2226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683237641475695, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683237641475868, "dur":450, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683237641476319, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683237641476395, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683237641476516, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683237641476592, "dur":732, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683237641477325, "dur":426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683237641477762, "dur":445, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683237641478208, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683237641478270, "dur":176, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683237641478447, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683237641478600, "dur":258, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683237641478858, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683237641478906, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683237641479110, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":12, "ts":1683237641479166, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683237641531520, "dur":1480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":12, "ts":1683237641533018, "dur":7575, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683237641459338, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683237641459338, "dur":7850, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683237641467188, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1683237641467515, "dur":5785, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683237641473301, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1683237641473385, "dur":2306, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683237641475693, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1683237641475870, "dur":570, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683237641476441, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1683237641476583, "dur":684, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683237641477268, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1683237641477316, "dur":890, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683237641478207, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":13, "ts":1683237641478606, "dur":234, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683237641478848, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":13, "ts":1683237641478888, "dur":215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683237641479104, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1683237641479160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683237641530900, "dur":4214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1683237641535131, "dur":5434, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683237641459584, "dur":11, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683237641459599, "dur":7562, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683237641467163, "dur":491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1683237641467654, "dur":2323, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683237641469978, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":14, "ts":1683237641470240, "dur":2606, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683237641472853, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders.exe" }}
+,{ "pid":12345, "tid":14, "ts":1683237641473076, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683237641473147, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1683237641473456, "dur":2191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683237641475648, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1683237641475715, "dur":716, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683237641476432, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1683237641476567, "dur":721, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683237641477289, "dur":474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1683237641477763, "dur":440, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683237641478204, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":14, "ts":1683237641478282, "dur":217, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683237641478500, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1683237641478668, "dur":210, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683237641478878, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1683237641478929, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683237641479060, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets8.assets.resS" }}
+,{ "pid":12345, "tid":14, "ts":1683237641479122, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683237641511215, "dur":4176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets8.assets.resS" }}
+,{ "pid":12345, "tid":14, "ts":1683237641515435, "dur":25146, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683237641459817, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683237641459817, "dur":7355, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683237641467177, "dur":391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1683237641467568, "dur":6355, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683237641473923, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1683237641474090, "dur":1559, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683237641475650, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1683237641475717, "dur":565, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683237641476283, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1683237641476374, "dur":262, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683237641476637, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1683237641476863, "dur":422, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683237641477286, "dur":459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1683237641477745, "dur":453, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683237641478199, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":15, "ts":1683237641478341, "dur":192, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683237641478534, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":15, "ts":1683237641478586, "dur":335, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683237641478922, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":15, "ts":1683237641478982, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683237641479060, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":15, "ts":1683237641479124, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683237641511688, "dur":5123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":15, "ts":1683237641516842, "dur":23727, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683237641460230, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683237641460231, "dur":6952, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683237641467184, "dur":442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1683237641467626, "dur":5243, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683237641472946, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1683237641473105, "dur":1536, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683237641474642, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1683237641474745, "dur":1408, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683237641476154, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1683237641476212, "dur":328, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683237641476540, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1683237641476612, "dur":698, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683237641477310, "dur":437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1683237641477747, "dur":534, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683237641478281, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":16, "ts":1683237641478444, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683237641478646, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1683237641478696, "dur":269, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683237641478965, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":16, "ts":1683237641479021, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683237641479104, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Sprint 4 Build/Dungeon Defenders_Data/sharedassets6.resource" }}
+,{ "pid":12345, "tid":16, "ts":1683237641479157, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683237641525426, "dur":2745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Sprint 4 Build/Dungeon Defenders_Data/sharedassets6.resource" }}
+,{ "pid":12345, "tid":16, "ts":1683237641528191, "dur":12392, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683237641545204, "dur":1413, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1683237641574774, "dur": 469, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683237641574706, "dur": 551, "ph": "X", "name": "Write chrome-trace events", "args": {} },
